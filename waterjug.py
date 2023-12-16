@@ -27,3 +27,22 @@ def waterJugSolver(cap1, cap2):
     return False
 print("Steps: ")
 waterJugSolver(0, 0)
+
+
+OUTPUT:
+
+
+
+
+Capacity of the first jug j1 : 4
+Capacity of the second jug j2 : 3
+Enter the required capacity : 2
+Steps: 
+0 0
+4 0
+4 3
+0 3
+3 0
+3 3
+4 2
+0 2
