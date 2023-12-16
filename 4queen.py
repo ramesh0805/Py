@@ -32,3 +32,27 @@ n=int(input('Enter number of queens: '))
 mat=[['-' for x in range(n)]for y in range(n)]
 print('Solutions are')
 Nqueen(mat,0)
+
+
+
+
+
+
+
+OUTPUT:
+
+
+
+
+
+Enter number of queens: 4
+Solutions are
+[- Q - -]
+[- - - Q]
+[Q - - -]
+[- - Q -]
+
+[- - Q -]
+[Q - - -]
+[- - - Q]
+[- Q - -]
