@@ -28,3 +28,9 @@ addedge(1, 8)
 addedge(4, 8)
 
 DFS(visited, graph, 5)
+
+
+OUTPUT:
+
+
+51680432
