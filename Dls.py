@@ -47,3 +47,25 @@ else:
             break
         else:
             print('Target is not reachable')
+
+
+OUTPUT:
+
+
+Enter a number of vertices: 6
+Enter 1st value: 0
+Enter 2nd value: 1
+Enter 1st value: 0
+Enter 2nd value: 2
+Enter 1st value: 1
+Enter 2nd value: 3
+Enter 1st value: 1
+Enter 2nd value: 4
+Enter 1st value: 2
+Enter 2nd value: 5
+Enter 1st value: 2
+Enter 2nd value: 6
+Enter value of source point: 0
+Enter target point: 6
+Enter depth value: 2
+Target reachable
