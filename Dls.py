@@ -47,6 +47,9 @@ else:
             break
         else:
             print('Target is not reachable')
+    else:
+        print("Target is not reachable within limit")
+
 
 
 OUTPUT:
