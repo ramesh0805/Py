@@ -1,4 +1,4 @@
-                                                     CSP PROBLEM 
+                                                   
 
 
 def is_safe(vertex, color, graph, c):
