@@ -1,3 +1,6 @@
+                                                     CSP PROBLEM
+
+
 def is_safe(vertex, color, graph, c):
     for i in range(len(graph)):
         if graph[vertex][i] and color[i] == c:
