@@ -1,8 +1,8 @@
 class Person:
-    def __init__(self, name, gender, dob):
+    def __init__(self, name, gender):
         self.name = name
         self.gender = gender
-        self.dob = dob
+       # self.dob = dob
         self.parents = []
         self.spouse = None
         self.children = []
@@ -28,10 +28,6 @@ class Person:
         elif person2.spouse == self:
             return "spouse"
         else:
-            for child in self.children:
-                relationship = child.find_relationship(person2)
-                if relationship != "No direct relationship":
-                    return relationship
             return "No direct relationship"
 
     def display_family_tree(self, level=0):
@@ -40,10 +36,10 @@ class Person:
             child.display_family_tree(level + 1)
 
 if __name__ == "__main__":
-    john = Person("John", "Male", "01/01/1980")
-    mary = Person("Mary", "Female", "15/10/1998")
-    alice = Person("Alice", "Female", "29/05/2021")
-    bob = Person("Bob", "Male", "08/08/2023")
+    john = Person("John", "Male")
+    mary = Person("Mary", "Female")
+    alice = Person("Alice", "Female")
+    bob = Person("Bob", "Male")
 
     john.add_spouse(mary)
     mary.add_child(alice)
@@ -57,7 +53,6 @@ if __name__ == "__main__":
 
     print(f"Relationship between John and Bob: {relationship_john_bob}")
     print(f"Relationship between Mary and Alice: {relationship_mary_alice}")
-
 
 
 
