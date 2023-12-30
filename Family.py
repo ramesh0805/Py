@@ -2,7 +2,6 @@ class Person:
     def __init__(self, name, gender):
         self.name = name
         self.gender = gender
-       # self.dob = dob
         self.parents = []
         self.spouse = None
         self.children = []
@@ -12,11 +11,9 @@ class Person:
 
     def add_spouse(self, spouse):
         self.spouse = spouse
-        spouse.spouse = self  # Update spouse relationship on both sides
 
     def add_child(self, child):
         self.children.append(child)
-        child.parents.append(self)  # Update parent relationship for the child
 
     def find_relationship(self, person2):
         if person2 in self.parents:
