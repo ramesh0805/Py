@@ -1,0 +1,31 @@
+#enable programmable completion features (you don't need to enable #this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+
+#sources /etc/bash.bashrc). I shopt -oq posix; then
+
+if [ -f /usr/share/bash-completion/bash_completion ]; then /usr/share/bash-completion/bash_completion
+
+elif [ -f /etc/bash_completion ]; then /etc/bash_completion
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ alias jps='/usr/lib/jvm/java-8-openjdk-amd64/bin/jps'
+
+export HADOOP_HOME=/opt/hadoop-2.10.0/ export PATH=$PATH:$HADOOP HOME/bin
+
+export PATH=$PATH:$HADOOP HOME/bin
+
+export PATH=$PATH:$HADOOP HOME/sbin
+
+I
+
+export HADOOP MAPRED HOME=$HADOOP HOME
+
+export HADOOP COMMON_HOME=SHADOOP HOME
+
+export HADOOP HDFS HOME=$HADOOP HOME
+
+export YARN HOME=$HADOOP HOME
+
+export HADOOP COMMON LIB NATIVE DIR-SHADOOP HOME/lib/native
+
+export HADOOP OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
+
+export HADOOP CLASSPATH=${JAVA_HOME}/lib/tools.jarl
